@@ -15,21 +15,21 @@ The website includes sections for personal information, project highlights, and 
 ## Project Structure
 
 My-Portfolio/
-├── app.py  
-├── requirements.txt  
-├── static/  
+├── app.py
+├── requirements.txt
+├── static/
 │   ├── style.css
 │   ├── script.js
 │   └── Arun_IT_Resume.pdf
-├── templates/  
-│   ├── index.html  
-    |__ base.html
-    |__ certifications.html
-    |__ contact.html
-    |__ project.html
-    |__ skills.html
-│   └── base.html
-└── README.md  
+├── templates/
+│   ├── base.html
+│   ├── index.html
+│   ├── certifications.html
+│   ├── contact.html
+│   ├── project.html
+│   └── skills.html
+└── README.md
+
 
 ---
 
