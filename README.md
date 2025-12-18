@@ -81,7 +81,7 @@ python app.py
 
 Open the application in your browser:
 
-http://127.0.0.1:5000
+👉 https://my-portfolio-rqbg.onrender.com
 
 ---
 
