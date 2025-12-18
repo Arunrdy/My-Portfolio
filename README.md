@@ -12,6 +12,9 @@ The website includes sections for personal information, project highlights, and 
 
 ---
 
+## Project Structure
+
+
 ```text
 My-Portfolio/
 ├── app.py
