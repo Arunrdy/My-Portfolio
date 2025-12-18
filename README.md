@@ -10,6 +10,8 @@ The portfolio is a Flask-based web application that renders static and dynamic c
 
 The website includes sections for personal information, project highlights, and external links. Styling and client-side behavior are handled using static assets such as CSS and JavaScript.
 
+---
+
 ```text
 My-Portfolio/
 ├── app.py
@@ -27,6 +29,8 @@ My-Portfolio/
 │   └── skills.html
 └── README.md
 ```
+
+---
 
 ## Technologies Used
 
