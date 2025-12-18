@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title if title else "Portfolio - Arun" }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+    <nav>
+        <h2>Arun Reddy</h2>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/skills">Skills</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/education">Education</a></li>
+            <li><a href="/certifications">Certifications</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+        <a class="btn small-btn" href="{{ url_for('static', filename='Arun_IT_Resume.pdf') }}" download>Download Resume</a>
+    </nav>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        © 2025 Arun — Portfolio Built with Flask & Jinja
+    </footer>
+
+</body>
+</html>
