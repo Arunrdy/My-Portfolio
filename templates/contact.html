@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="section-card">
+  <h2>Contact</h2>
+
+  <form method="POST" class="contact-form">
+    <label>Your Name</label>
+    <input type="text" name="name" required>
+
+    <label>Your Email</label>
+    <input type="email" name="email" required>
+
+    <label>Your Message</label>
+    <textarea name="message" rows="4" required></textarea>
+
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+
+  {% if success %}
+  <p class="success-msg">Message sent successfully.</p>
+  {% endif %}
+
+  <div class="contact-grid">
+    <div class="contact-card">
+      <h3>Email</h3>
+      <p><a href="mailto:sallaarunr@gmail.com">sallaarunr@gmail.com</a></p>
+    </div>
+    <div class="contact-card">
+      <h3>LinkedIn</h3>
+      <p><a href="https://linkedin.com/in/Salla-Arun-Reddy" target="_blank">linkedin.com/in/Salla-Arun-Reddy</a></p>
+    </div>
+    <div class="contact-card">
+      <h3>GitHub</h3>
+      <p><a href="https://github.com/Arunrdy" target="_blank">github.com/Arunrdy</a></p>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
