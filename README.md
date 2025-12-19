@@ -81,7 +81,7 @@ python app.py
 
 Open the application in your browser:
 
-👉 https://my-portfolio-rqbg.onrender.com
+👉 https://my-portfolio-f2sf.onrender.com
 
 ---
 
